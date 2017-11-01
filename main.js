@@ -38,13 +38,13 @@ function todoList() {
 		var checkbox = document.createElement('input');
         checkbox.id = "cb " + itemID;
 		checkbox.type = "checkbox";
-        checkbox.onclick = function () { completeTask(labelTextBox.id)}
+        checkbox.onclick = function () { completeTask(labelTextBox.id)};
 
         cbLbl.appendChild(checkbox);
         cbLbl.appendChild(checkMark);
 
 		// Grouping the delete | edit buttons together
-		var buttonGroup = document.createElement('span')
+		var buttonGroup = document.createElement('span');
 		buttonGroup.setAttribute("class","buttonGrp");
         
 		// Delete button
