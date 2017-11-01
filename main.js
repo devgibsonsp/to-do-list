@@ -7,7 +7,6 @@ var itemID = 0;
 /* Purpose: Adds tasks to list and formats them correctly */
 function todoList() {
 
-	// single quotes or double????
 
 	if(document.getElementById("todoInput").value != "") {
         
