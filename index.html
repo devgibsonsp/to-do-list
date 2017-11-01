@@ -1,0 +1,23 @@
+<!-- Author: Steven Gibson -->
+<!-- File: index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> To-Do List</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <form id = "todoForm" onSubmit="return false">
+        <input id="todoInput" onkeyup="FilterInput (event, id)" class = "todoInput">
+        <button type="button" class="button" onclick="todoList()">ADD</button>
+    </form>
+    <div class = "border">
+        Tasks:
+        <ul id="todoList">
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
