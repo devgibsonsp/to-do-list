@@ -1,6 +1,6 @@
 # To-Do List app
 
-ìTo-Do Listî is a simple JavaScript app that allows users to maintain a list of tasks. The user should also be able to edit, delete or mark tasks as complete. The development of this app will take place in two phases, Phase I & Phase II.  Phase III is optional.
+‚ÄúTo-Do List‚Äù is a simple JavaScript app that allows users to maintain a list of tasks. The user should also be able to edit, delete or mark tasks as complete. The development of this app will take place in two phases, Phase I & Phase II.  Phase III is optional.
 
 
 ## Built With
@@ -11,7 +11,7 @@
 
 ## Authors
 
-* **Steven Gibson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Steven Gibson**
 
 
 ## Acknowledgments
